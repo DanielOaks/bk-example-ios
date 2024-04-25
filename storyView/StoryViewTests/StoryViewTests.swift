@@ -21,6 +21,6 @@ final class StoryViewTests: XCTestCase {
 
   func testData() throws {
     XCTAssertEqual(storyView.information.name, "My Name")
-    XCTAssertEqual(storyView.information.funFacts.count, 4)
+    XCTAssertEqual(storyView.information.funFacts.count, 8)
   }
 }
